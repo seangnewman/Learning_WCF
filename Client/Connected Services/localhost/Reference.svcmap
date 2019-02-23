@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="533c42c8-0a0f-417f-ba9b-dd9e0110a1ef" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8001/HelloIndigo" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelloIndigo.xsd" MetadataType="Schema" ID="54e54772-546a-44e3-839f-d6e6897d9e61" SourceId="1" SourceUrl="http://localhost:8001/HelloIndigo?xsd=xsd1" />
+    <MetadataFile FileName="HelloIndigo.wsdl" MetadataType="Wsdl" ID="cf2830ac-5036-4b04-9008-5b1803de950e" SourceId="1" SourceUrl="http://localhost:8001/HelloIndigo?wsdl=wsdl0" />
+    <MetadataFile FileName="HelloIndigoService.wsdl" MetadataType="Wsdl" ID="5320fb74-d626-4648-938f-797385490558" SourceId="1" SourceUrl="http://localhost:8001/HelloIndigo?wsdl" />
+    <MetadataFile FileName="HelloIndigo1.xsd" MetadataType="Schema" ID="70a13cca-d5b3-48a8-8175-e72969a41c62" SourceId="1" SourceUrl="http://localhost:8001/HelloIndigo?xsd=xsd0" />
+    <MetadataFile FileName="HelloIndigo.disco" MetadataType="Disco" ID="5bbea6f0-e4f5-45ba-b958-840acf000b6b" SourceId="1" SourceUrl="http://localhost:8001/HelloIndigo?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
